@@ -2,6 +2,12 @@
 
 This is a PriceTracking app that uses CRON jobs to periodically update the product data. NodeMailer is used to send user's notifications. Inspired by the JSMastery Data Scraping Video.
 
+## ToDo
+
+- Create Charts from the Product Data
+- Add Sharing Features such as Tweet Now
+- Add Authentication for user's to save their products and wishlists.
+
 ## Getting Started
 
 First, run the development server:
