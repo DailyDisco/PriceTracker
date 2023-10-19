@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PriceTracker
+
+This is a PriceTracking app that uses CRON jobs to periodically update the product data. NodeMailer is used to send user's notifications. Inspired by the JSMastery Data Scraping Video.
 
 ## Getting Started
 
