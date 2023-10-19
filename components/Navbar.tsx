@@ -1,3 +1,4 @@
+import { SignInButton } from '@clerk/nextjs'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -5,7 +6,6 @@ import React from 'react'
 const navIcons = [
     { src: '/assets/icons/search.svg', alt: 'search' },
     { src: '/assets/icons/black-heart.svg', alt: 'heart' },
-    { src: '/assets/icons/user.svg', alt: 'user' },
 ]
 
 const Navbar = () => {
@@ -21,6 +21,10 @@ const Navbar = () => {
                         <Image key={icon.alt} src={icon.src} alt={icon.alt} width={28} height={28} className='object-contain' />
                     )
                     )}
+                    {/* Clerk Auth Sign In Button */}
+                    <SignInButton>
+                        <Image src={"/assets/icons/user.svg"} alt="user button" width={28} height={28} className='object-contain cursor-pointer' />
+                    </SignInButton>
                 </div>
             </nav>
         </header>
