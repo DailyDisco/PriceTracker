@@ -1,0 +1,4 @@
+# Cron Jobs
+Cron Jobs are used to schedule commands to be executed periodically. Cron Jobs are like personal assistants for your computer. They will open your mail, read it, and act on it if you ask them to. They will even send you a message if you want. They can do a lot of stuff at the time you specify. They are very useful for routine tasks like backups, system maintenance etc. They are also used to schedule commands for a specific time. For example, you can set a cron job to delete temporary files every week to conserve your disk space.
+
+In this case it is being used to periodically update the product data.
