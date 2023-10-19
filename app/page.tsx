@@ -44,15 +44,13 @@ const Home = async () => {
         </h2>
         <div className='flex flex-wrap gap-x-8 gap-y-16'>
           {allProducts?.map((product) => (
-            <div>
-              <ProductCard
-                key={product.id}
-                product={product}
-              />
-            </div>
+            <ProductCard
+              key={product.id}
+              product={product}
+            />
           ))}
         </div>
-      </section>
+      </section >
     </>
   )
 }
