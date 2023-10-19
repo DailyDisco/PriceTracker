@@ -1,4 +1,7 @@
 'use server';
+
+// make sure to add product image to emails and add unsubscribe link
+
 import { EmailContent, EmailProductInfo, NotificationType } from '@/types';
 import nodemailer from 'nodemailer';
 

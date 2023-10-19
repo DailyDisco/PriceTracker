@@ -7,6 +7,10 @@ This is a PriceTracking app that uses CRON jobs to periodically update the produ
 - Create Charts from the Product Data
 - Add Sharing Features such as Tweet Now
 - Add Authentication for user's to save their products and wishlists.
+- Set Custom Price Alerts based off Price Targets (i.e. 10% off or $10 off)
+- Add a Product Search Feature
+- Add save product for user quick access
+- Add saved products to the home page
 
 ## Getting Started
 
