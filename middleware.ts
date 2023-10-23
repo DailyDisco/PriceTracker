@@ -5,7 +5,7 @@ import { authMiddleware } from '@clerk/nextjs';
 // See https://clerk.com/docs/references/nextjs/auth-middleware for more information about configuring your Middleware
 export default authMiddleware({
   // publicRoutes = A list of routes that should be accessible without authentication. You can use glob patterns to match multiple routes or a function to match against the request object. For example: ['/foo', '/bar(.*)'] or [/^/foo/.*$/]
-  publicRoutes: ['/', '/products/(.*)'],
+  publicRoutes: ['/', '/products/(.*)', '/api/(.*)'],
 });
 
 export const config = {
