@@ -146,8 +146,9 @@ const ProductDetails = async ({ params: { id } }: Props) => {
                     <Modal productId={id} />
                 </div>
             </div>
-            <div>
-                {/* <PriceHistoryChart productId={id} /> */}
+            <div className='flex flex-col gap-16 mx-auto'>
+                {/* <PriceHistoryChart data={[]} width={0} height={0} marginTop={0} marginRight={0} marginBottom={0} marginLeft={0} /> */}
+                {/* <PriceHistoryChart /> */}
             </div>
             {/* Product Description */}
             <div className='flex flex-col gap-16'>
